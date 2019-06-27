@@ -1,0 +1,36 @@
+<view class="parent">
+    <view class="parent-content">
+        <view class="box box-top">
+          <view class="name">{{lastName}}</view>
+          <view class="username">{{userName}}</view>
+        </view>
+      <view class="line"></view>
+      <view class="box">
+        <view class="row">入职时间</view>
+        <view>{{confirmJoinTime}}</view>
+      </view>
+      <view class="box">
+        <view class="row">首次工作时间</view>
+        <view>{{joinWorkingTime}}</view>
+      </view>
+      <view class="box">
+        <view class="row">今年剩余年假</view>
+        <view>{{days}}天</view>
+      </view>
+      <view class="box">
+        <view class="row">去年剩余年假</view>
+        <view>{{daysLastYear}}天</view>
+        <view class="msg">优先扣除，请今年内修完！</view>
+      </view>
+    </view>
+    <view class="section" hidden="{{hidePick}}">
+      <picker onChange="bindObjPickerChange" value="{{arrIndex}}" range="{{objectArray}}" range-key="userName">
+        <view class="pick">
+          <view class="pick-extra">当前选择</view>
+          <view class="pick-value">{{objectArray[arrIndex].userName}}</view>
+          <!-- <image class="row-arrow" src="/image/arrowright.png" mode="aspectFill" /> -->
+          <text>{{selectDays}}</text>
+        </view>
+      </picker>
+    </view>
+</view>

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "page/index/index"
+  ],
+  "window": {
+    "enableWK": "YES",
+    "enableDSL": true,
+    "defaultTitle": "薪宝信息科技(广州)有限公司",
+    "backgroundColor": "#fff",
+    "pullRefresh": false,
+    "allowsBounceVertical": true
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#108ee9",
+    "backgroundColor": "#F5F5F9",
+    "items": [
+      
+    ]
+  },
+  "debug": true
+}

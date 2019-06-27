@@ -1,0 +1,71 @@
+.parent{
+  background-color: white;
+  border: 0px;
+  height: 100%
+}
+.parent-content {
+  padding-bottom: 60rpx; 
+}
+.box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 20rpx;
+}
+.box-top {
+  padding-top: 15rpx
+}
+.row{
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 160rpx;
+    text-align: end;
+    margin-right: 20rpx;
+    font-size: 25rpx;
+    color: #888888;
+}
+.name{
+  height: 80rpx;
+  width: 80rpx;
+  background-color: #4A95F8;
+  color: white;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 25rpx;
+  border-radius: 80rpx;
+  margin-right: 20rpx;
+}
+.username{
+  font-size: 30rpx;
+}
+.line{
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  width: 100%;
+  border-top: 1rpx;
+  border-bottom: 1px solid #E9E9E9;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.pick{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.pick-extra{
+  font-size:25rpx;
+  margin-left: 30rpx;
+  color: #888888;
+  margin-right: 20rpx;
+}
+.pick-value{
+  border: #E9E9E9 1px solid;
+  width: 150rpx;
+  padding-left: 10rpx;
+  margin-right: 20rpx;
+}
+.msg{
+  font-size: 20rpx;
+  color: red;
+  margin-left: 20rpx;
+}
